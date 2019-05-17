@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4A86F13C-BFAE-4FEE-833D-545FCD5AD574}</ProjectGuid>
+    <ProjectGuid>{C24FFD6B-4B06-4A88-BC1B-4CCE4F2B03E9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>WantsomeWeek5</RootNamespace>
-    <AssemblyName>WantsomeWeek5</AssemblyName>
+    <RootNamespace>AnimalHierarchy</RootNamespace>
+    <AssemblyName>AnimalHierarchy</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,14 +49,14 @@
     <Compile Include="Clasess\Dog.cs" />
     <Compile Include="Clasess\Frog.cs" />
     <Compile Include="Clasess\Kitten.cs" />
+    <Compile Include="Clasess\Tomcat.cs" />
     <Compile Include="Interfaces\ISound.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Clasess\Tomcat.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

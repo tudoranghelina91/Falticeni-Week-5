@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WantsomeWeek5.Clasess;
+using AnimalHierarchy.Clasess;
 
-namespace WantsomeWeek5
+
+namespace AnimalHierarchy
 {
     class Program
     {
@@ -37,7 +38,7 @@ namespace WantsomeWeek5
             AverageAgeOfAnimals.PrintDogAvaregeAge();
             AverageAgeOfAnimals.PrintKittenAvaregeAge();
             AverageAgeOfAnimals.PrintTomcatAvaregeAge();
-            
+
 
             Console.WriteLine(55);
             Console.ReadKey();

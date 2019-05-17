@@ -34,13 +34,13 @@ namespace AnimalHierarchy
             Cat Motan4 = new Tomcat(6, "M4", "male");
             Cat[] Pisici = new[] { Motan1, Motan2, Motan3, Motan4, Pisica1, Pisica2, Pisica3, Pisica4 };
 
-            AverageAgeOfAnimals.PrintBroasteAvaregeAge();
-            AverageAgeOfAnimals.PrintDogAvaregeAge();
-            AverageAgeOfAnimals.PrintKittenAvaregeAge();
-            AverageAgeOfAnimals.PrintTomcatAvaregeAge();
+            AverageAgeOfAnimals.PrintBroasteAvaregeAge(Broaste);
+            AverageAgeOfAnimals.PrintDogAvaregeAge(Caini);
+            AverageAgeOfAnimals.PrintKittenAvaregeAge(Pisici);
+            AverageAgeOfAnimals.PrintTomcatAvaregeAge(Pisici);
 
 
-            Console.WriteLine(55);
+            Console.WriteLine("55");
             Console.ReadKey();
         }
     }

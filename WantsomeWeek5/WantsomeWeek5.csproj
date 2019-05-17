@@ -43,16 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clasess\Animal.cs" />
-    <Compile Include="Clasess\AverageAgeOfAnimals.cs" />
-    <Compile Include="Clasess\Cat.cs" />
-    <Compile Include="Clasess\Dog.cs" />
-    <Compile Include="Clasess\Frog.cs" />
-    <Compile Include="Clasess\Kitten.cs" />
-    <Compile Include="Interfaces\ISound.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Clasess\Tomcat.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

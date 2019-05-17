@@ -8,7 +8,7 @@ namespace AnimalHierarchy.Clasess
 {
     public static class AverageAgeOfAnimals
     {
-        public static void PrintBroasteAvaregeAge()
+        public static void PrintBroasteAvaregeAge(Frog[] Broaste)
         {
             double sumAge = 0;
             double nrOfAnimals = 0;
@@ -19,7 +19,7 @@ namespace AnimalHierarchy.Clasess
             }
             Console.WriteLine("Varsta medie a broastelor este {0}:", sumAge / nrOfAnimals);
         }
-        public static void PrintDogAvaregeAge()
+        public static void PrintDogAvaregeAge(Dog[] Caini)
         {
             double sumAge = 0;
             double nrOfAnimals = 0;
@@ -31,7 +31,7 @@ namespace AnimalHierarchy.Clasess
             Console.WriteLine("Varsta medie a cainilor este {0}:", sumAge / nrOfAnimals);
         }
 
-        public static void PrintKittenAvaregeAge()
+        public static void PrintKittenAvaregeAge(Cat[] Pisici)
         {
             double sumAge = 0;
             double nrOfAnimals = 0;
@@ -42,7 +42,7 @@ namespace AnimalHierarchy.Clasess
             }
             Console.WriteLine("Varsta medie a pisicilor este {0}:", sumAge / nrOfAnimals);
         }
-        public static void PrintTomcatAvaregeAge()
+        public static void PrintTomcatAvaregeAge(Cat[] Pisici)
         {
             double sumAge = 0;
             double nrOfAnimals = 0;

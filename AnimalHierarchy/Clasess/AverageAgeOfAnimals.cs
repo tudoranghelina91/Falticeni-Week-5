@@ -35,10 +35,13 @@ namespace AnimalHierarchy.Clasess
         {
             double sumAge = 0;
             double nrOfAnimals = 0;
-            foreach (Kitten animal in Pisici)
+            foreach (Cat animal in Pisici)
             {
-                sumAge += animal.Age;
-                nrOfAnimals++;
+                if (animal is Kitten)
+                {
+                    sumAge += animal.Age;
+                    nrOfAnimals++;
+                }
             }
             Console.WriteLine("Varsta medie a pisicilor este {0}:", sumAge / nrOfAnimals);
         }
@@ -46,10 +49,13 @@ namespace AnimalHierarchy.Clasess
         {
             double sumAge = 0;
             double nrOfAnimals = 0;
-            foreach (Tomcat animal in Pisici)
+            foreach (Cat animal in Pisici)
             {
-                sumAge += animal.Age;
-                nrOfAnimals++;
+                if (animal is Tomcat)
+                {
+                    sumAge += animal.Age;
+                    nrOfAnimals++;
+                }
             }
             Console.WriteLine("Varsta medie a motanilor este {0}:", sumAge / nrOfAnimals);
         }
